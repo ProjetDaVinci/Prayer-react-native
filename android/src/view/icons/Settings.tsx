@@ -5,7 +5,7 @@ interface SVGRProps {
   titleId?: string;
 }
 
-const SvgComponent = ({title, titleId, ...props}: SvgProps & SVGRProps) => (
+const Settings = ({title, titleId, ...props}: SvgProps & SVGRProps) => (
   <Svg width={24} height={24} fill="none" aria-labelledby={titleId} {...props}>
     {title ? <title id={titleId}>{title}</title> : null}
     <Path
@@ -23,4 +23,4 @@ const SvgComponent = ({title, titleId, ...props}: SvgProps & SVGRProps) => (
   </Svg>
 );
 
-export default SvgComponent;
+export default Settings;

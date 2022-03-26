@@ -18,17 +18,9 @@ const Header: FC = () => {
         <EscapedButton></EscapedButton>
         <TextHead>To do</TextHead>
         <OptionsButton>
-          <Settings />
+          <Settings onPress={() => console.log('a,j,a')} />
         </OptionsButton>
       </Head>
-      <Selection>
-        <SelectionBlock primary>
-          <TextSelection>MY PRAYERS</TextSelection>
-        </SelectionBlock>
-        <SelectionBlock>
-          <TextHead>SUBSCRIBED</TextHead>
-        </SelectionBlock>
-      </Selection>
     </HeadContainer>
   );
 };

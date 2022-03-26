@@ -26,7 +26,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import {Dashboard} from './view/components';
+import {Dashboard, PrayerDetails} from './view/components';
 // import {MyDesk} from './view/components';
 
 // const Section: React.FC<{
@@ -65,7 +65,8 @@ const App = () => {
   };
 
   return (
-    <Dashboard />
+    <PrayerDetails />
+    // <Dashboard />
     // <MyDesk />
     // <SafeAreaView style={backgroundStyle}>
     //   <StatusBar barStyle="dark-content" />

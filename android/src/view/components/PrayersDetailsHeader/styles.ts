@@ -6,18 +6,19 @@ export const Head = styled.View`
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  padding: 0 15px;
 `;
 
 export const HeadContainer = styled.View`
-  background: #ffffff;
+  background: #bfb393;
+  padding: 0 15px;
 `;
 
 export const TextHead = styled.Text`
   font-family: 'SF UI Text';
   font-size: 17px;
   line-height: 20px;
-  color: #514d47;
+  color: #ffffff;
+  padding-bottom: 23px;
 `;
 
 export const EscapedButton = styled.View`
@@ -29,6 +30,7 @@ export const Image = styled.Image``;
 export const OptionsButton = styled.View`
   width: 16px;
   height: auto;
+  margin-right: 15px;
 `;
 
 export const Selection = styled.View`
